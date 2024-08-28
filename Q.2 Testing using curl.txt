@@ -1,0 +1,99 @@
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "John",
+ "lastName": "Doe",
+ "phoneNumber": 9876543210,
+ "emailId": "john.doe@example.com"
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "Alice",
+ "lastName": "Smith",
+ "phoneNumber": 9876543210,
+ "emailId": "alice.smith@example.com"
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "Bob",
+ "lastName": "Brown",
+ "phoneNumber": 9123456789,
+ "emailId": "john.doe@example.com"
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "Charlie",
+ "lastName": "Johnson",
+ "phoneNumber": 9234567890,
+ "emailId": "charlie.johnson@example.com"
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "lastName": "Johnson",
+ "phoneNumber": 9345678901,
+ "emailId": "charlie.johnson@example.com"
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "Charlie",
+ "phoneNumber": 9345678901,
+ "emailId": "charlie.johnson@example.com"
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "Charlie",
+ "lastName": "Johnson",
+ "emailId": "charlie.johnson@example.com"
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "Charlie",
+ "lastName": "Johnson",
+ "phoneNumber": 9345678901
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "Dave",
+ "lastName": "Williams",
+ "phoneNumber": 9456789012,
+ "emailId": "dave.williams@com"
+}'
+
+curl --location 'https://bfhldevapigw.healthrx.co.in/automation-campus/create/user' \
+--header 'roll-number: 1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+ "firstName": "John@Doe",
+ "lastName": "Smith#",
+ "phoneNumber": 9567890123,
+ "emailId": "john.doe+test@example.com"
+}'
+
+
+
+
+
